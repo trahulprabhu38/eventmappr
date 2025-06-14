@@ -24,13 +24,13 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Build project (optional)
-        run: echo "No build step needed for static site"
+      - name: Build project 
+        run: npm run build
 
       - name: Install Vercel CLI
         run: npm install -g vercel
 
-      - name: Deploy to Vercel (Preview)
+      - name: Deploy to Vercel for preview
         id: vercel
         run: |
           DEPLOY_URL=$(vercel --token $VERCEL_TOKEN --scope $VERCEL_ORG_ID --confirm)
