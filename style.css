@@ -61,6 +61,19 @@ button:hover {
 
 footer {
   text-align: center;
-  padding: 0.8rem;
+  padding: 1rem;
   background-color: #e9ecef;
+  font-size: 0.95rem;
+  color: #333;
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+footer a {
+  color: #4b0082;
+  text-decoration: none;
+  margin: 0 0.4rem;
+}
+
+footer a:hover {
+  text-decoration: underline;
 }
