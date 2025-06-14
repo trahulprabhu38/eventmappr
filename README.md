@@ -3,8 +3,6 @@
 
 *EventMappr* is a lightweight, open-source community event mapping web app. Users can discover, add, and explore local events pinned on an interactive map. Built with *HTML, CSS, JavaScript, and **Leaflet.js*, it offers a simple and engaging way to visualize what's happening around you.
 
-![EventMappr Screenshot](https://via.placeholder.com/900x450.png?text=EventMappr+Preview)
-
 ---
 
 ## 🌟 Features
